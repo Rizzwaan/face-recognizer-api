@@ -1,0 +1,24 @@
+{
+  "name": "face-recognizer-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "clarifai": "^2.8.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "knex": "^0.15.2",
+    "pg": "^7.4.3"
+  }
+}
